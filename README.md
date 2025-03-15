@@ -27,6 +27,7 @@ html,css,React js,google fonts used (Roboto);
 
 adarshprasad005@gmail.com
 8075681422
+
 3.[Project Overview]
 
 Manage devices of varying form factors and operating systems with one solution.
