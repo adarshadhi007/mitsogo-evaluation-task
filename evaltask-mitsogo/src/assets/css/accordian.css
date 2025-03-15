@@ -1,0 +1,33 @@
+.accordian-button{
+    color: var(--button-nav-color);
+    margin-left: 2%;
+    margin-bottom: 2%; 
+    font-weight: bold;
+}
+.accordion{
+
+}
+  
+.accordion-header {
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.10s ease-in-out;
+  }
+  
+.accordian-mobile-image{
+display: none;
+}
+
+@media (max-width: 768px) {
+    .accordian-mobile-image{
+        display: block;
+        text-align: center;
+    } 
+    .accordian-mobile-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+  }

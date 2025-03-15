@@ -1,0 +1,57 @@
+.description-parent{
+background-color: #1A1C2B; 
+color: #ffff; 
+display: flex;
+} 
+.description-child{ 
+    position: relative;
+    margin: 4% 2%;
+    padding: 0% 2%;
+    transition: transform 0.5s ease;
+
+} 
+.description-child h4{
+    font-weight: 500;
+    font-size: 30px; 
+    margin-bottom: 1%;
+} 
+.description-child p{
+    color: #96979E;
+
+} 
+
+.description-child:hover{
+    transform: translateY(-10px); 
+    
+}
+
+.hero-seperator{
+    width: 1px;
+    border: 0.5px solid #96979E;
+    height: 151px;
+    margin: 4%;
+
+}
+
+
+/* mq */
+
+@media only screen and (max-width: 768px) {
+
+    .description-parent{
+        display: flex; 
+        flex-direction: column; 
+    }
+    .description-child {
+        text-align: center;
+    }
+    .hero-seperator{
+        height: 1px;
+        border: 0.5px solid #96979E;
+        width: 151px;
+        margin: 3% auto;
+    
+    }
+  }
+
+    
